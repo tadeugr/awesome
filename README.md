@@ -41,3 +41,8 @@ https://github.com/apache/airflow Apache Airflow - A platform to programmaticall
 https://github.com/nats-io/k8s a simple, secure and high performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures. `kubernetes`
 
 https://github.com/linkedin/rest.li/ Rest.li is a REST+JSON framework for building robust, scalable service architectures using dynamic discovery and simple asynchronous APIs.
+
+https://avaamo.ai/ . `Artificial Intelligance` `Conversational AI` `chatbot`
+
+https://github.com/jessfraz/dockerfiles Various Dockerfiles I use on the desktop and on servers. `dockerfiles` `bash` `docker` `dockerfile` `linux` `shell` `containers`
+
