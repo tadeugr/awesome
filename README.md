@@ -8,4 +8,4 @@ https://github.com/SharonBrizinov/s3viewer AWS, S3, bucket
 
 https://github.com/StreisandEffect/streisand vpn, ansible, openvpn, wireguard, openconnect, anyconnect, shadowsocks, stunnel, tor, ssh, streisand, censorship
 
-https://github.com/wagoodman/dive A tool for exploring each layer in a docker image. `docker docker-image inspector explorer cli tui`
+https://github.com/wagoodman/dive A tool for exploring each layer in a docker image. `docker` `docker-image` `inspector` `explorer` `cli` `tui`
