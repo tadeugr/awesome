@@ -31,3 +31,8 @@ https://github.com/jrnl-org/jrnl Collect your thoughts and notes without leaving
 https://github.com/chubin/cheat.sh the only cheat sheet you need. `cheatsheet` `curl` `terminal` `command-line` `cli` `examples` `documentation` `help` `tldr`
 
 https://github.com/osnr/TabFS Mount your browser tabs as a filesystem. 
+
+https://github.com/jekyll/jekyll Jekyll is a blog-aware static site generator in Ruby. `ruby` `jekyll` `static-site-generator` `blog-engine` `markdown` `liquid`
+
+https://github.com/apache/airflow Apache Airflow - A platform to programmatically author, schedule, and monitor workflows. `airflow` `apache` `apache-airflow` `python` `scheduler` `workflow`
+
