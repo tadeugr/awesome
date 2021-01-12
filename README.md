@@ -22,5 +22,9 @@ https://github.com/jiahaog/nativefier Make any web page a desktop application. `
 
 https://github.com/trimstray/the-book-of-secret-knowledge A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. `awesome` `awesome-list` `lists` `manuals` `resources` `howtos` `hacks` `search-engines` `one-liners` `cheatsheets` `guidelines` `sysops` `devops` `pentesters` `security-researchers` `linux` `bsd` `security` `hacking`
 
+https://github.com/PyCQA/isort A Python utility / library to sort imports. `auto-formatter` `isort` `sorting-imports` `python-utility` `cli` `linter` `cleaner` `formatter` `python` `python3`
+
+
+
 
 
