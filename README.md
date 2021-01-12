@@ -55,3 +55,5 @@ https://github.com/wtfutil/wtf/ personal information dashboard for your terminal
 https://github.com/gnunn1/tilix A tiling terminal emulator for Linux using GTK+ 3. `terminal-emulators` `dlang` `gtk3` `terminal` `vte`
 
 https://github.com/aristocratos/bpytop Linux/OSX/FreeBSD resource monitor. `monitoring` `cli` `tui` `command-line` `python`
+
+https://github.com/googleprojectzero/Jackalope Binary, coverage-guided fuzzer for Windows and macOS. 
