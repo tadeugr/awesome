@@ -24,7 +24,6 @@ https://github.com/trimstray/the-book-of-secret-knowledge A collection of inspir
 
 https://github.com/PyCQA/isort A Python utility / library to sort imports. `auto-formatter` `isort` `sorting-imports` `python-utility` `cli` `linter` `cleaner` `formatter` `python` `python3`
 
+https://github.com/jrnl-org/jrnl Collect your thoughts and notes without leaving the command line. `journal` `jrnl` `python` `journal-application` `note-taking` `notes` `encrypted` `shell` `productivity` `cli` `command-line`
 
-
-
-
+https://github.com/chubin/cheat.sh the only cheat sheet you need. `cheatsheet` `curl` `terminal` `command-line` `cli` `examples` `documentation` `help` `tldr`
