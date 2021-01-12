@@ -6,6 +6,8 @@ https://github.com/aws/copilot-cli The AWS Copilot CLI is a tool for developers 
 
 https://github.com/meteor/meteor Meteor, the JavaScript App Platform. `javascript` `build-system` `framework` `reactive-programming` `nodejs` `frontend`
 
+https://github.com/emberjs/ember.js JavaScript framework for creating ambitious web applications. `frontend`
+
 https://github.com/SharonBrizinov/s3viewer Publicly Open Amazon AWS S3 Bucket Viewer. `aws` `s3` `bucket` `security`
 
 https://github.com/StreisandEffect/streisand Streisand sets up a new server running your choice of WireGuard, OpenConnect, OpenSSH, OpenVPN, Shadowsocks, sslh, Stunnel, or a Tor bridge. It also generates custom instructions for all of these services. At the end of the run you are given an HTML file with instructions that can be shared with friends, family members, and fellow activists. `vpn` `ansible` `openvpn` `wireguard` `openconnect` `anyconnect` `shadowsocks` `stunnel` `tor` `ssh` `streisand` `censorship`
@@ -38,3 +40,4 @@ https://github.com/apache/airflow Apache Airflow - A platform to programmaticall
 
 https://github.com/nats-io/k8s a simple, secure and high performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures. `kubernetes`
 
+https://github.com/linkedin/rest.li/ Rest.li is a REST+JSON framework for building robust, scalable service architectures using dynamic discovery and simple asynchronous APIs.
