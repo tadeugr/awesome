@@ -1,5 +1,7 @@
 https://github.com/gitpod-io/gitpod Gitpod automates the provisioning of ready-to-code development environments. `dev environment` `development environment` `devops` `cloud ide` `github ide` `gitlab ide` `online ide` `web ide`
 
+https://repl.it/ `cloud ide` `online ide` `web ide`
+
 https://github.com/aws/copilot-cli The AWS Copilot CLI is a tool for developers to build, release and operate production ready containerized applications on Amazon ECS and AWS Fargate. `modern-applications` `cd-pipelines` `containers` `infrastructure-as-code` `aws-ecs` `devops` `developer-tools` `aws-fargate` `aws-fargate-application` `IaC` `build` `ci/cd`
 
 https://github.com/meteor/meteor Meteor, the JavaScript App Platform. `javascript` `build-system` `framework` `reactive-programming` `nodejs` `frontend`
@@ -27,3 +29,5 @@ https://github.com/PyCQA/isort A Python utility / library to sort imports. `auto
 https://github.com/jrnl-org/jrnl Collect your thoughts and notes without leaving the command line. `journal` `jrnl` `python` `journal-application` `note-taking` `notes` `encrypted` `shell` `productivity` `cli` `command-line`
 
 https://github.com/chubin/cheat.sh the only cheat sheet you need. `cheatsheet` `curl` `terminal` `command-line` `cli` `examples` `documentation` `help` `tldr`
+
+https://github.com/osnr/TabFS Mount your browser tabs as a filesystem. 
