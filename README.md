@@ -8,6 +8,8 @@ https://github.com/meteor/meteor Meteor, the JavaScript App Platform. `javascrip
 
 https://github.com/emberjs/ember.js JavaScript framework for creating ambitious web applications. `frontend`
 
+https://github.com/vercel/swr React Hooks library for remote data fetching. `react` `hook` `data-fetching` `zeit` `swr` `suspense` `react-native` `fetch` `vercel` `cache`
+
 https://github.com/SharonBrizinov/s3viewer Publicly Open Amazon AWS S3 Bucket Viewer. `aws` `s3` `bucket` `security`
 
 https://github.com/StreisandEffect/streisand Streisand sets up a new server running your choice of WireGuard, OpenConnect, OpenSSH, OpenVPN, Shadowsocks, sslh, Stunnel, or a Tor bridge. It also generates custom instructions for all of these services. At the end of the run you are given an HTML file with instructions that can be shared with friends, family members, and fellow activists. `vpn` `ansible` `openvpn` `wireguard` `openconnect` `anyconnect` `shadowsocks` `stunnel` `tor` `ssh` `streisand` `censorship`
@@ -16,7 +18,7 @@ https://github.com/wagoodman/dive A tool for exploring each layer in a docker im
 
 https://github.com/imthenachoman/How-To-Secure-A-Linux-Server An evolving how-to guide for securing a Linux server. `linux` `hardening` `hardening-steps` `security` `security-hardening` `server` `linux-server` `cc-by-sa`
 
-https://midnight-commander.org/ command line (CLI, TUI) file manager.
+https://midnight-commander.org/ line (CLI, TUI) file manager.
 
 https://github.com/ventoy/Ventoy A new bootable USB solution. `bootable-usb` `multiboot` `uefi` `legacy` `iso-files` `usb` `secure-boot` `windows` `linux` `unix` `vmware`
 
@@ -46,3 +48,10 @@ https://avaamo.ai/ . `Artificial Intelligance` `Conversational AI` `chatbot`
 
 https://github.com/jessfraz/dockerfiles Various Dockerfiles I use on the desktop and on servers. `dockerfiles` `bash` `docker` `dockerfile` `linux` `shell` `containers`
 
+https://akv2k8s.io/ Azure Key Vault to Kubernetes (akv2k8s) makes Azure Key Vault secrets, certificates and keys available in Kubernetes and/or your application - in a simple and secure way.
+
+https://github.com/wtfutil/wtf/ personal information dashboard for your terminal. `cli` `tui` `command-line`
+
+https://github.com/gnunn1/tilix A tiling terminal emulator for Linux using GTK+ 3. `terminal-emulators` `dlang` `gtk3` `terminal` `vte`
+
+https://github.com/aristocratos/bpytop Linux/OSX/FreeBSD resource monitor. `monitoring` `cli` `tui` `command-line` `python`
