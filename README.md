@@ -36,3 +36,5 @@ https://github.com/jekyll/jekyll Jekyll is a blog-aware static site generator in
 
 https://github.com/apache/airflow Apache Airflow - A platform to programmatically author, schedule, and monitor workflows. `airflow` `apache` `apache-airflow` `python` `scheduler` `workflow`
 
+https://github.com/nats-io/k8s a simple, secure and high performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures. `kubernetes`
+
