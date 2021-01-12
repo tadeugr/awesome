@@ -4,6 +4,8 @@ https://repl.it/ `cloud ide` `online ide` `web ide`
 
 https://github.com/aws/copilot-cli The AWS Copilot CLI is a tool for developers to build, release and operate production ready containerized applications on Amazon ECS and AWS Fargate. `modern-applications` `cd-pipelines` `containers` `infrastructure-as-code` `aws-ecs` `devops` `developer-tools` `aws-fargate` `aws-fargate-application` `IaC` `build` `ci/cd`
 
+https://www.mturk.com/ Amazon Mechanical Turk. Crowdsourcing marketplace that makes it easier for individuals and businesses to outsource their processes and jobs to a distributed workforce who can perform these tasks virtually. `workflow` `automation`
+
 https://github.com/meteor/meteor Meteor, the JavaScript App Platform. `javascript` `build-system` `framework` `reactive-programming` `nodejs` `frontend`
 
 https://github.com/emberjs/ember.js JavaScript framework for creating ambitious web applications. `frontend`
