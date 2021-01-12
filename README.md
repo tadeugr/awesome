@@ -9,3 +9,18 @@ https://github.com/SharonBrizinov/s3viewer Publicly Open Amazon AWS S3 Bucket Vi
 https://github.com/StreisandEffect/streisand Streisand sets up a new server running your choice of WireGuard, OpenConnect, OpenSSH, OpenVPN, Shadowsocks, sslh, Stunnel, or a Tor bridge. It also generates custom instructions for all of these services. At the end of the run you are given an HTML file with instructions that can be shared with friends, family members, and fellow activists. `vpn` `ansible` `openvpn` `wireguard` `openconnect` `anyconnect` `shadowsocks` `stunnel` `tor` `ssh` `streisand` `censorship`
 
 https://github.com/wagoodman/dive A tool for exploring each layer in a docker image. `docker` `docker-image` `inspector` `explorer` `cli` `tui`
+
+https://github.com/imthenachoman/How-To-Secure-A-Linux-Server An evolving how-to guide for securing a Linux server. `linux` `hardening` `hardening-steps` `security` `security-hardening` `server` `linux-server` `cc-by-sa`
+
+https://midnight-commander.org/ command line (CLI, TUI) file manager.
+
+https://github.com/ventoy/Ventoy A new bootable USB solution. `bootable-usb` `multiboot` `uefi` `legacy` `iso-files` `usb` `secure-boot` `windows` `linux` `unix` `vmware`
+
+https://github.com/agalwood/Motrix A full-featured download manager. `aria2` `download-manager` `macos` `windows` `linux` `bittorrent` `magnet` `electron` `bt` `mac` `download`
+
+https://github.com/jiahaog/nativefier Make any web page a desktop application. `nodejs` `electron` `linux` `windows` `macos` `desktop-application`
+
+https://github.com/trimstray/the-book-of-secret-knowledge A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. `awesome` `awesome-list` `lists` `manuals` `resources` `howtos` `hacks` `search-engines` `one-liners` `cheatsheets` `guidelines` `sysops` `devops` `pentesters` `security-researchers` `linux` `bsd` `security` `hacking`
+
+
+
