@@ -1,84 +1,76 @@
+# tadeugr/awesome
 
+![awesome](doc/awesome.png "Awesome")
 
-http://localhost:8080/
+An awesome list with a built in localhost search engine. Think of a "personal Google" with a tailored indexed dataset.
 
+# Get started
 
+## Requirements
+
+- Docker;
+
+- Docker Compose.
+
+## Start
+
+Clone this repo and `cd` to its directory.
+
+```
+git clone https://github.com/tadeugr/awesome.git
+cd awesome
+```
+
+Build and run the stack.
+
+```
+make up
+```
+
+The script will run `docker-compose up -d`, then read `awesome.yaml` and populate MeiliSearch
+
+Access: http://localhost:8080/
+
+## Stop
+
+To stop all docker containers, run.
+
+```
+make down
+```
+
+## Delete
+
+To delete all docker containers, run.
+
+```
+make rm
+```
+
+# Debug
+
+## From inside the proxy container
+
+Allocate a TTY.
+
+```
 docker-compose exec proxy /bin/sh
+```
 
+Use MeiliSearch container to test connectivity.
+
+```
 curl -X GET 'http://172.27.0.1:7700/indexes/awesome/search' -H "X-Meili-API-Key: masterKey" -i
+```
 
+Use MeiliSearch container through nginx proxy to test connectivity.
+
+```
 curl -X GET 'http://localhost:80/search/indexes/awesome/search' -H "X-Meili-API-Key: masterKey" -i
+```
 
+## From host workstation
 
-localhost (host workstation)
-
+```
 curl -X GET 'http://localhost:8080/search/indexes/awesome/search' -H "X-Meili-API-Key: masterKey" -i
-
-https://github.com/gitpod-io/gitpod Gitpod automates the provisioning of ready-to-code development environments. `dev environment` `development environment` `devops` `cloud ide` `github ide` `gitlab ide` `online ide` `web ide`
-
-https://repl.it/ `cloud ide` `online ide` `web ide`
-
-https://github.com/aws/copilot-cli The AWS Copilot CLI is a tool for developers to build, release and operate production ready containerized applications on Amazon ECS and AWS Fargate. `modern-applications` `cd-pipelines` `containers` `infrastructure-as-code` `aws-ecs` `devops` `developer-tools` `aws-fargate` `aws-fargate-application` `IaC` `build` `ci/cd`
-
-https://www.mturk.com/ Amazon Mechanical Turk. Crowdsourcing marketplace that makes it easier for individuals and businesses to outsource their processes and jobs to a distributed workforce who can perform these tasks virtually. `workflow` `automation`
-
-https://github.com/meteor/meteor Meteor, the JavaScript App Platform. `javascript` `build-system` `framework` `reactive-programming` `nodejs` `frontend`
-
-https://github.com/koajs/koa Expressive middleware for node.js using ES2017 async functions. `framework` `nodejs`
-
-https://github.com/adonisjs/core The Node.js Framework highly focused on developer ergonomics, stability and confidence. `framework` `nodejs`
-
-https://github.com/emberjs/ember.js JavaScript framework for creating ambitious web applications. `frontend`
-
-https://github.com/vercel/swr React Hooks library for remote data fetching. `react` `hook` `data-fetching` `zeit` `swr` `suspense` `react-native` `fetch` `vercel` `cache`
-
-https://github.com/SharonBrizinov/s3viewer Publicly Open Amazon AWS S3 Bucket Viewer. `aws` `s3` `bucket` `security`
-
-https://github.com/StreisandEffect/streisand Streisand sets up a new server running your choice of WireGuard, OpenConnect, OpenSSH, OpenVPN, Shadowsocks, sslh, Stunnel, or a Tor bridge. It also generates custom instructions for all of these services. At the end of the run you are given an HTML file with instructions that can be shared with friends, family members, and fellow activists. `vpn` `ansible` `openvpn` `wireguard` `openconnect` `anyconnect` `shadowsocks` `stunnel` `tor` `ssh` `streisand` `censorship`
-
-https://github.com/wagoodman/dive A tool for exploring each layer in a docker image. `docker` `docker-image` `inspector` `explorer` `cli` `tui`
-
-https://github.com/imthenachoman/How-To-Secure-A-Linux-Server An evolving how-to guide for securing a Linux server. `linux` `hardening` `hardening-steps` `security` `security-hardening` `server` `linux-server` `cc-by-sa`
-
-https://midnight-commander.org/ line (CLI, TUI) file manager.
-
-https://github.com/ventoy/Ventoy A new bootable USB solution. `bootable-usb` `multiboot` `uefi` `legacy` `iso-files` `usb` `secure-boot` `windows` `linux` `unix` `vmware`
-
-https://github.com/agalwood/Motrix A full-featured download manager. `aria2` `download-manager` `macos` `windows` `linux` `bittorrent` `magnet` `electron` `bt` `mac` `download`
-
-https://github.com/jiahaog/nativefier Make any web page a desktop application. `nodejs` `electron` `linux` `windows` `macos` `desktop-application`
-
-https://github.com/trimstray/the-book-of-secret-knowledge A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. `awesome` `awesome-list` `lists` `manuals` `resources` `howtos` `hacks` `search-engines` `one-liners` `cheatsheets` `guidelines` `sysops` `devops` `pentesters` `security-researchers` `linux` `bsd` `security` `hacking`
-
-https://github.com/PyCQA/isort A Python utility / library to sort imports. `auto-formatter` `isort` `sorting-imports` `python-utility` `cli` `linter` `cleaner` `formatter` `python` `python3`
-
-https://github.com/jrnl-org/jrnl Collect your thoughts and notes without leaving the command line. `journal` `jrnl` `python` `journal-application` `note-taking` `notes` `encrypted` `shell` `productivity` `cli` `command-line`
-
-https://github.com/chubin/cheat.sh the only cheat sheet you need. `cheatsheet` `curl` `terminal` `command-line` `cli` `examples` `documentation` `help` `tldr`
-
-https://github.com/osnr/TabFS Mount your browser tabs as a filesystem. 
-
-https://github.com/jekyll/jekyll Jekyll is a blog-aware static site generator in Ruby. `ruby` `jekyll` `static-site-generator` `blog-engine` `markdown` `liquid`
-
-https://github.com/apache/airflow Apache Airflow - A platform to programmatically author, schedule, and monitor workflows. `airflow` `apache` `apache-airflow` `python` `scheduler` `workflow`
-
-https://github.com/nats-io/k8s a simple, secure and high performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures. `kubernetes`
-
-https://github.com/linkedin/rest.li/ Rest.li is a REST+JSON framework for building robust, scalable service architectures using dynamic discovery and simple asynchronous APIs.
-
-https://avaamo.ai/ . `Artificial Intelligance` `Conversational AI` `chatbot`
-
-https://github.com/jessfraz/dockerfiles Various Dockerfiles I use on the desktop and on servers. `dockerfiles` `bash` `docker` `dockerfile` `linux` `shell` `containers`
-
-https://akv2k8s.io/ Azure Key Vault to Kubernetes (akv2k8s) makes Azure Key Vault secrets, certificates and keys available in Kubernetes and/or your application - in a simple and secure way.
-
-https://github.com/wtfutil/wtf/ personal information dashboard for your terminal. `cli` `tui` `command-line`
-
-https://github.com/gnunn1/tilix A tiling terminal emulator for Linux using GTK+ 3. `terminal-emulators` `dlang` `gtk3` `terminal` `vte`
-
-https://github.com/aristocratos/bpytop Linux/OSX/FreeBSD resource monitor. `monitoring` `cli` `tui` `command-line` `python`
-
-https://github.com/googleprojectzero/Jackalope Binary, coverage-guided fuzzer for Windows and macOS. 
-
-https://www.openpolicyagent.org/docs/latest/kubernetes-introduction/ In Kubernetes, Admission Controllers enforce policies on objects during create, update, and delete operations. Admission control is fundamental to policy enforcement in Kubernetes.
-
+```

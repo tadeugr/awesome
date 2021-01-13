@@ -10,7 +10,7 @@ const crypto = require('crypto')
     apiKey: 'masterKey',
   })
 
-  let fileContents = fs.readFileSync('../awesome.yaml', 'utf8');
+  let fileContents = fs.readFileSync(__dirname+'/../awesome.yaml', 'utf8');
   let data = yaml.load(fileContents);
 
   var documents = [];

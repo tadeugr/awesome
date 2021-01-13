@@ -20,7 +20,7 @@ $(document).ready(function(){
         request = $.ajax({
             url: "http://localhost:8080/search/indexes/awesome/search",
             type: "get",
-            data: {},
+            data: {"limit": 1000, "q": query},
             headers: {"X-Meili-API-Key": 'masterKey'},
         });
     
