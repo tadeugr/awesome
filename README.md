@@ -2,7 +2,11 @@
 
 ![awesome](doc/awesome.png "Awesome")
 
-An awesome list with a built in localhost search engine. Think of a "personal Google" with a tailored indexed dataset.
+An awesome list with a built-in localhost search engine. Think of a "personal Google" with a tailored indexed dataset.
+
+I know there are many better awesome lists out there, although most often it is hard to browse the content because Markdown Table of Contents is not intuitive and to use `Ctrl + F` to find keywords is not always the best option.
+
+Now you can create your own awesome list and to have a powerful search engine to browser the content.
 
 # Get started
 
