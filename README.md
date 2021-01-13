@@ -59,3 +59,6 @@ https://github.com/gnunn1/tilix A tiling terminal emulator for Linux using GTK+ 
 https://github.com/aristocratos/bpytop Linux/OSX/FreeBSD resource monitor. `monitoring` `cli` `tui` `command-line` `python`
 
 https://github.com/googleprojectzero/Jackalope Binary, coverage-guided fuzzer for Windows and macOS. 
+
+https://www.openpolicyagent.org/docs/latest/kubernetes-introduction/ In Kubernetes, Admission Controllers enforce policies on objects during create, update, and delete operations. Admission control is fundamental to policy enforcement in Kubernetes.
+
