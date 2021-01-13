@@ -1,3 +1,19 @@
+
+
+http://localhost:8080/
+
+
+docker-compose exec proxy /bin/sh
+
+curl -X GET 'http://172.27.0.1:7700/indexes/awesome/search' -H "X-Meili-API-Key: masterKey" -i
+
+curl -X GET 'http://localhost:80/search/indexes/awesome/search' -H "X-Meili-API-Key: masterKey" -i
+
+
+localhost (host workstation)
+
+curl -X GET 'http://localhost:8080/search/indexes/awesome/search' -H "X-Meili-API-Key: masterKey" -i
+
 https://github.com/gitpod-io/gitpod Gitpod automates the provisioning of ready-to-code development environments. `dev environment` `development environment` `devops` `cloud ide` `github ide` `gitlab ide` `online ide` `web ide`
 
 https://repl.it/ `cloud ide` `online ide` `web ide`

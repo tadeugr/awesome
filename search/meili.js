@@ -1,6 +1,8 @@
 const MeiliSearch = require('meilisearch')
-// Or if you are on a front-end environment:
-//import MeiliSearch from 'meilisearch'
+const fs = require('fs');
+const yaml = require('js-yaml');
+const crypto = require('crypto')
+
 
 ;(async () => {
   const client = new MeiliSearch({
@@ -8,20 +10,25 @@ const MeiliSearch = require('meilisearch')
     apiKey: 'masterKey',
   })
 
-  // An index is where the documents are stored.
-  const index = client.index('books') // If your index exists
+  let fileContents = fs.readFileSync('../awesome.yaml', 'utf8');
+  let data = yaml.load(fileContents);
 
-  const documents = [
-    { book_id: 123, title: 'Pride and Prejudice' },
-    { book_id: 456, title: 'Le Petit Prince' },
-    { book_id: 1, title: 'Alice In Wonderland' },
-    { book_id: 1344, title: 'The Hobbit' },
-    { book_id: 4, title: 'Harry Potter and the Half-Blood Prince', genre: 'fantasy' },
-    { book_id: 42, title: "The Hitchhiker's Guide to the Galaxy", genre: 'fantasy' }
-  ]
+  var documents = [];
+  for (const item of data.list) {
+    if (!item.name) {
+        continue
+    }
+    console.log("Inserting: "+item.name)
+    let id = crypto.createHash('md5').update(item.url).digest("hex")
+    item.id = id
+    documents.push(item)
+    
+  }
+  console.log(documents)
 
-  // If the index 'movies' does not exist, MeiliSearch creates it when you first add the documents.
+  //process.exit()
+
+  const index = client.index('awesome')
   let response = await index.addDocuments(documents)
-
-  console.log(response) // => { "updateId": 0 }
+  console.log(response)
 })()
