@@ -51,6 +51,10 @@ To delete all docker containers, run.
 make rm
 ```
 
+# Contributors are welcome
+
+Let's create together the most awesome awesome list.
+
 # Debug
 
 ## From inside the proxy container
