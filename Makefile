@@ -3,7 +3,6 @@ debug:
 
 up:
 	cd dev; docker-compose up -d
-	node search/meili.js
 
 stop:
 	cd dev; docker-compose stop

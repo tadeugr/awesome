@@ -6,11 +6,11 @@ const crypto = require('crypto')
 
 ;(async () => {
   const client = new MeiliSearch({
-    host: 'http://127.0.0.1:7700',
+    host: 'http://proxy/search',
     apiKey: 'masterKey',
   })
 
-  let fileContents = fs.readFileSync(__dirname+'/../awesome.yaml', 'utf8');
+  let fileContents = fs.readFileSync('/awesome.yaml', 'utf8');
   let data = yaml.load(fileContents);
 
   var documents = [];

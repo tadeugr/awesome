@@ -18,9 +18,9 @@ services:
     working_dir: /app
     command: >
       sh -c "npm install &&
+             node index-data.js &&
              DEBUG=search:* npm start"
     depends_on:
-      - proxy
       - meilisearch
     networks:
       - ntw-app
@@ -31,8 +31,6 @@ services:
       - MEILI_MASTER_KEY=masterKey
     ports:
       - "7700:7700"
-    depends_on:
-      - proxy
     networks:
       - ntw-app
   proxy:
@@ -41,5 +39,8 @@ services:
       - "8080:80"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:delegated
+    depends_on:
+      - app
+      - meilisearch
     networks:
       - ntw-app
