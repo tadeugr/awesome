@@ -68,7 +68,7 @@ docker-compose exec proxy /bin/sh
 Use MeiliSearch container to test connectivity.
 
 ```
-curl -X GET 'http://172.27.0.1:7700/indexes/awesome/search' -H "X-Meili-API-Key: masterKey" -i
+curl -X GET 'http://meilisearch:7700/indexes/awesome/search' -H "X-Meili-API-Key: masterKey" -i
 ```
 
 Use MeiliSearch container through nginx proxy to test connectivity.
