@@ -344,7 +344,7 @@ list:
     tags:
       - "iterm2"
       - "cheat-sheet"
-  - name: "oogleCloudPlatform/buildpacks"
+  - name: "GoogleCloudPlatform/buildpacks"
     url: "https://github.com/GoogleCloudPlatform/buildpacks"
     description: "Builders and buildpacks designed to run on Google Cloud's container platforms."
     tags:
